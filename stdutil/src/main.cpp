@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
         { NULL, 0, NULL, 0 }
     };
 
-    while((opt = getopt_long(argc,argv, "ho:p:c:n", long_opts, NULL)) != 1) {
+    while((opt = getopt_long(argc, argv, "h:o:p:c:n", long_opts, NULL)) != -1) {
         switch(opt) {
             case 'h':
                 write(1, help_str, ARR_SIZE(help_str));
@@ -61,12 +61,13 @@ int main(int argc, char** argv) {
                 return 1;
             default:
                 write(2, unkn_emsg, ARR_SIZE(unkn_emsg));
-                break;
+                return 2;
         }
     }
 
     if(count_str == NULL) {
-        write(2, help_str, ARR_SIZE(help_str));
+        write(2, "Error count = 0", 16);
+        return 3;
     }
     count = abs(atoi(count_str));
 
