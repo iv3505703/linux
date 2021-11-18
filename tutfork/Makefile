@@ -17,9 +17,9 @@ SRC = src/
 INC = -Iinc/
 BLD = build/
 
-all: $(BLD)main.elf
+all: $(BLD)main
 
-$(BLD)main.elf: $(BLD)main.o
+$(BLD)main: $(BLD)main.o
 	$(CC) -o $@ $^ $(LFLAGS)
 	#$(OBJ) -D $(BLD)main.elf > $(BLD)main.list
 	
