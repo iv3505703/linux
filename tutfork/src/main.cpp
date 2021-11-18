@@ -5,6 +5,7 @@
 #include <pwd.h>
 
 int main( int argc, char** argv) {
-    int ui = getuid();
+    int uid = getuid();
+    printf("UID=%d", uid);
 }
 
