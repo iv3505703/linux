@@ -9,7 +9,7 @@ AS = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-as
 OBJ =  ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-objdump
 
 
-CPPFLAGS = -Wall -Werror -g3 -O0
+CPPFLAGS = -Wall -Wpedantic -g3 -O0
 LFLAGS = -static -Xlinker -Map=$(BLD)/main.map #-L~/raspberrypi/i686_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib/ \
 		 -L/home/debian/raspberrypi/sysroot/
 
