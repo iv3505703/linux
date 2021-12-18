@@ -1,9 +1,9 @@
 .PHONY: all, clean
 
-#CC = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
-CC = /bin/arm-linux-gnueabihf-gcc-11
-CPP = /bin/arm-linux-gnueabihf-g++-11
-#CPP = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+#CC = /bin/arm-linux-gnueabihf-gcc-11
+#CPP = /bin/arm-linux-gnueabihf-g++-11
+CC = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+CPP = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
 LD = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld
 AS = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-as
 OBJ =  ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-objdump
