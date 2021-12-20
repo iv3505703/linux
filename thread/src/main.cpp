@@ -6,9 +6,14 @@
 #include "time.h"
 #include <iostream>
 #include <chrono>
+#include <thread>
+#include "udp.h"
 
 int arrSum[2] = {5,6};
 
+void threadFunction() {
+    std::cout << "new c++ thread ID: " << std::this_thread::get_id() << std::endl;    
+}
 int main(int argc, char** argv) {
     int tempVar = 0;
     pid_t status = fork();
@@ -36,6 +41,14 @@ int main(int argc, char** argv) {
     auto end = std::chrono::system_clock::now();
     time_t end_time = std::chrono::system_clock::to_time_t(end);
     std::cout << "Time: " <<ctime(&end_time);
+    
+
+    Udp udp;
+    udp.send("opa");
+    //udp.read();
+    std::thread thr(threadFunction);
+    thr.join();
+
     return 0;
 }
 

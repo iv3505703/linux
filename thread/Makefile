@@ -11,7 +11,7 @@ OBJ =  ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-objdump
 
 
 CPPFLAGS = -Wall -Wpedantic -g3 -O0
-LFLAGS = -L~/pi/sysroot/lib -fPIC -Xlinker -Map=$(BLD)main.map  \
+LFLAGS = -L/home/opa/pi/sysroot/lib -fPIC -Xlinker -Map=$(BLD)main.map  \
 		  #-static
 
 SRC = src/
@@ -20,7 +20,7 @@ BLD = build/
 
 all: $(BLD)main.elf
 
-$(BLD)main.elf: $(BLD)main.o
+$(BLD)main.elf: $(BLD)main.o $(BLD)udp.o
 	$(CPP) -o $@ $^ $(LFLAGS)
 #	$(OBJ) -D $(BLD)main.elf > $(BLD)main.list
 	
