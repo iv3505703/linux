@@ -2,17 +2,19 @@
 
 #CC = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
 CC = /bin/arm-linux-gnueabihf-gcc-11
-#CPP = /bin/arm-linux-gnueabihf-g++-11
-CPP = aarch64-linux-gnu-g++-11
-#CPP = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+#CPP = aarch64-linux-gnu-g++
+#CPP = arm-linux-gnueabihf-g++
+#CPP = aarch64-linux-gnu-g++-11
+CPP = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+
 LD = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld
 AS = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-as
 OBJ =  ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-objdump
 
 
 CPPFLAGS = -Wall -Wpedantic -g3 -O0
-LFLAGS = -L/home/opa/pi/sysroot/lib -fPIC -Xlinker -Map=$(BLD)main.map  \
-		  #-static
+LFLAGS = -lpthread -L/home/opa/pi/sysroot/lib -L/home/debian/raspberrypi/sysroot/usr/lib -fPIC -Xlinker -Map=$(BLD)main.map  \
+		  -static
 
 SRC = src/
 INC = -Iinc/

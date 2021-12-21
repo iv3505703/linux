@@ -7,10 +7,10 @@
 
 extern char** environ;
 int main( int argc, char** argv) {
+    while(1);
     uint16_t InitPid = getpid();
     int uid = getuid();
     printf("UID=%d", uid);
-
     pid_t result = fork();
     if(result == -1) {
         write(2, "Error\n", 7); return 1;
