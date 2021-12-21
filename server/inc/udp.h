@@ -11,7 +11,7 @@ class Udp {
 public:
     Udp();
     ~Udp();
-    void send(const std::string &str);
+    int send(const std::string &str);
     void read();
     int sockfd=0;
 

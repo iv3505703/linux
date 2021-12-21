@@ -16,14 +16,16 @@ Udp udp;
 void threadFunction() {
     std::cout << "new c++ thread ID: " << std::this_thread::get_id() << std::endl; 
     while(1) {
-        auto end = std::chrono::system_clock::now();
-        time_t end_time = std::chrono::system_clock::to_time_t(end);
+        //auto end = std::chrono::system_clock::now();
+        //time_t end_time = std::chrono::system_clock::to_time_t(end);
         std::string str;
         int len = udp.read();
         if(len == -1) {
             std::cout << "Error!!!" << std::endl;
         } else if(len > 0) {
             //! receive packet
+            system("clear");
+            std::cout<<"data:\n";
             std::cout << str.append(udp.buff,len) << std::endl; 
         }
         //To sleep a thread for 200 Milliseconds
@@ -37,6 +39,7 @@ int main(int argc, char** argv) {
     while(1) {
         if(!result) break; 
     }
+    std::cout<< "udpfd = " << udp.sockfd << std::endl;
     udp.send("opa");
     std::thread thr(threadFunction);
     thr.join();

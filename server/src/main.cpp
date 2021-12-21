@@ -18,11 +18,14 @@ void threadFunction() {
     while(1) {
         auto end = std::chrono::system_clock::now();
         time_t end_time = std::chrono::system_clock::to_time_t(end);
-        //std::cout << "Time: " << ctime(&end_time);
-        std::string str = "Time: " + std::to_string((long)ctime(&end_time));
-        udp.send(str);
+        std::string str = ctime(&end_time);
+        //char x[4] = "opa";
+        //write(1,x,3);
+        int sentSize = udp.send(str);
+        std::cout << "Time: " << str << "sentSize = " << sentSize;
         //To sleep a thread for 200 Milliseconds
         std::this_thread::sleep_for(std::chrono::milliseconds(500));
+        system("clear");
     }   
 }
 int main(int argc, char** argv) {
@@ -48,7 +51,7 @@ void* sum(void* arg) {
         time(&tim);
         printf(" time=%d\n", (int)tim);
         usleep(500000);
-        system("clear");
+        //system("clear");
     } while(sum--);
     return nullptr;
 }
