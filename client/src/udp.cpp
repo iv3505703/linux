@@ -21,7 +21,8 @@ void Udp::init() {
     sockfd = socket(AF_INET, SOCK_DGRAM, 0);
     saddr = new struct sockaddr;
     saddr_in = new struct sockaddr_in;
-    saddr_in->sin_addr.s_addr = inet_addr("192.168.0.106");
+    //saddr_in->sin_addr.s_addr = inet_addr("192.168.0.106");
+    saddr_in->sin_addr.s_addr = inet_addr("127.0.0.1");
     saddr_in->sin_family = AF_INET;
     saddr_in->sin_port = htons(55555);
     sock_len = sizeof(sockaddr_in);
