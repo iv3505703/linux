@@ -1,0 +1,1490 @@
+
+Для удовлетворения ссылок на файл (символ) включена библиотека по необходимости
+
+libstdc++.so.6                build/main.o (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@@GLIBCXX_3.4.21)
+libgcc_s.so.1                 build/main.o (_Unwind_Resume@@GCC_3.0)
+libc.so.6                     build/main.o (ctime@@GLIBC_2.17)
+ld-linux-aarch64.so.1         build/main.o (__stack_chk_guard@@GLIBC_2.17)
+
+Отброшенные входные разделы
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000       0x10 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000       0x14 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/main.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .group         0x0000000000000000        0xc build/udp.o
+ .debug_macro   0x0000000000000000      0xb1a build/udp.o
+ .debug_macro   0x0000000000000000       0x1c build/udp.o
+ .debug_macro   0x0000000000000000      0x2a1 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x58 build/udp.o
+ .debug_macro   0x0000000000000000      0x19e build/udp.o
+ .debug_macro   0x0000000000000000       0x74 build/udp.o
+ .debug_macro   0x0000000000000000       0x4c build/udp.o
+ .debug_macro   0x0000000000000000       0x67 build/udp.o
+ .debug_macro   0x0000000000000000      0x100 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x1c build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x1c build/udp.o
+ .debug_macro   0x0000000000000000       0x4c build/udp.o
+ .debug_macro   0x0000000000000000       0x1c build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x46 build/udp.o
+ .debug_macro   0x0000000000000000       0x20 build/udp.o
+ .debug_macro   0x0000000000000000       0x4c build/udp.o
+ .debug_macro   0x0000000000000000       0x16 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x12 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x3a build/udp.o
+ .debug_macro   0x0000000000000000      0x30c build/udp.o
+ .debug_macro   0x0000000000000000       0x1c build/udp.o
+ .debug_macro   0x0000000000000000       0xe4 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x34 build/udp.o
+ .debug_macro   0x0000000000000000      0x204 build/udp.o
+ .debug_macro   0x0000000000000000       0x22 build/udp.o
+ .debug_macro   0x0000000000000000      0x3b1 build/udp.o
+ .debug_macro   0x0000000000000000      0x1d3 build/udp.o
+ .debug_macro   0x0000000000000000       0x5f build/udp.o
+ .debug_macro   0x0000000000000000      0x191 build/udp.o
+ .debug_macro   0x0000000000000000       0x4c build/udp.o
+ .debug_macro   0x0000000000000000       0x20 build/udp.o
+ .debug_macro   0x0000000000000000      0x832 build/udp.o
+ .debug_macro   0x0000000000000000       0x27 build/udp.o
+ .debug_macro   0x0000000000000000       0x16 build/udp.o
+ .debug_macro   0x0000000000000000      0x1b2 build/udp.o
+ .debug_macro   0x0000000000000000       0x22 build/udp.o
+ .debug_macro   0x0000000000000000       0xc8 build/udp.o
+ .debug_macro   0x0000000000000000      0x103 build/udp.o
+ .debug_macro   0x0000000000000000      0x5ec build/udp.o
+ .debug_macro   0x0000000000000000       0x1c build/udp.o
+ .debug_macro   0x0000000000000000       0x18 build/udp.o
+ .debug_macro   0x0000000000000000       0x4f build/udp.o
+ .debug_macro   0x0000000000000000       0x6a build/udp.o
+ .debug_macro   0x0000000000000000       0x20 build/udp.o
+ .debug_macro   0x0000000000000000       0x28 build/udp.o
+ .debug_macro   0x0000000000000000       0x2e build/udp.o
+ .debug_macro   0x0000000000000000       0x1f build/udp.o
+ .debug_macro   0x0000000000000000       0x88 build/udp.o
+ .debug_macro   0x0000000000000000       0x19 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x5e build/udp.o
+ .debug_macro   0x0000000000000000       0x28 build/udp.o
+ .debug_macro   0x0000000000000000       0x86 build/udp.o
+ .debug_macro   0x0000000000000000       0x16 build/udp.o
+ .debug_macro   0x0000000000000000       0x97 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x16 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000      0x173 build/udp.o
+ .debug_macro   0x0000000000000000       0x11 build/udp.o
+ .debug_macro   0x0000000000000000       0x1c build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000      0x28b build/udp.o
+ .debug_macro   0x0000000000000000       0x11 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x19 build/udp.o
+ .debug_macro   0x0000000000000000       0x58 build/udp.o
+ .debug_macro   0x0000000000000000       0xb4 build/udp.o
+ .debug_macro   0x0000000000000000       0x16 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x37 build/udp.o
+ .debug_macro   0x0000000000000000       0x5e build/udp.o
+ .debug_macro   0x0000000000000000       0x11 build/udp.o
+ .debug_macro   0x0000000000000000       0x11 build/udp.o
+ .debug_macro   0x0000000000000000       0x16 build/udp.o
+ .debug_macro   0x0000000000000000       0xd0 build/udp.o
+ .debug_macro   0x0000000000000000       0x5e build/udp.o
+ .debug_macro   0x0000000000000000       0x94 build/udp.o
+ .debug_macro   0x0000000000000000       0x16 build/udp.o
+ .debug_macro   0x0000000000000000       0x58 build/udp.o
+ .debug_macro   0x0000000000000000      0x108 build/udp.o
+ .debug_macro   0x0000000000000000       0x11 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0xbf build/udp.o
+ .debug_macro   0x0000000000000000       0x16 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x16 build/udp.o
+ .debug_macro   0x0000000000000000       0x3a build/udp.o
+ .debug_macro   0x0000000000000000       0x4c build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x1c build/udp.o
+ .debug_macro   0x0000000000000000       0xf0 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x34 build/udp.o
+ .debug_macro   0x0000000000000000       0x4c build/udp.o
+ .debug_macro   0x0000000000000000       0x34 build/udp.o
+ .debug_macro   0x0000000000000000       0x3c build/udp.o
+ .debug_macro   0x0000000000000000      0x11d build/udp.o
+ .debug_macro   0x0000000000000000       0xd6 build/udp.o
+ .debug_macro   0x0000000000000000      0x256 build/udp.o
+ .debug_macro   0x0000000000000000       0x94 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x11 build/udp.o
+ .debug_macro   0x0000000000000000       0x17 build/udp.o
+ .debug_macro   0x0000000000000000       0x10 build/udp.o
+ .debug_macro   0x0000000000000000       0x76 build/udp.o
+ .debug_macro   0x0000000000000000       0x1c build/udp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/udp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+
+Настройки памяти
+
+Имя           Происхождение Длина         Атрибуты
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Сценарий компоновщика и карта памяти
+
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+LOAD build/main.o
+LOAD build/udp.o
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/libpthread.a
+LOAD /home/opa/pi/sysroot/lib/libstdc++.so
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/libm.so
+LOAD /home/opa/pi/sysroot/lib/libgcc_s.so
+START GROUP
+LOAD /home/opa/pi/sysroot/lib/libgcc_s.so.1
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/libgcc.a
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/libc.so
+START GROUP
+LOAD /usr/aarch64-linux-gnu/lib/libc.so.6
+LOAD /usr/aarch64-linux-gnu/lib/libc_nonshared.a
+LOAD /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1
+END GROUP
+LOAD /home/opa/pi/sysroot/lib/libgcc_s.so
+START GROUP
+LOAD /home/opa/pi/sysroot/lib/libgcc_s.so.1
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/libgcc.a
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtendS.o
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000238                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000238       0x1b
+ *(.interp)
+ .interp        0x0000000000000238       0x1b /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000254       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000254       0x24 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.note.ABI-tag   0x0000000000000278       0x20
+ .note.ABI-tag  0x0000000000000278       0x20 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000000298       0x24
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000000298       0x24 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.dynsym         0x00000000000002c0      0x6d8
+ *(.dynsym)
+ .dynsym        0x00000000000002c0      0x6d8 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.dynstr         0x0000000000000998      0x8b4
+ *(.dynstr)
+ .dynstr        0x0000000000000998      0x8b4 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.gnu.version    0x000000000000124c       0x92
+ *(.gnu.version)
+ .gnu.version   0x000000000000124c       0x92 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.gnu.version_d  0x00000000000012e0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000012e0        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.gnu.version_r  0x00000000000012e0       0xf0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000012e0       0xf0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.rela.dyn       0x00000000000013d0      0x258
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x00000000000013d0        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .rela.data.rel.local
+                0x00000000000013d0       0x18 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .rela.data.rel.ro.local._ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEEE
+                0x00000000000013e8       0x60 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .rela.data.rel.ro._ZTINSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEEE
+                0x0000000000001448       0x48 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000001490       0x18 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x00000000000014a8      0x120 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x00000000000015c8        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.rela.ifunc)
+ .rela.ifunc    0x00000000000015c8        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .rela.init_array
+                0x00000000000015c8       0x48 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .rela.fini_array
+                0x0000000000001610       0x18 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.rela.plt       0x0000000000001628      0x5a0
+ *(.rela.plt)
+ .rela.plt      0x0000000000001628      0x5a0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.rela.iplt)
+
+.init           0x0000000000001bc8       0x18
+ *(SORT_NONE(.init))
+ .init          0x0000000000001bc8       0x10 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+                0x0000000000001bc8                _init
+ .init          0x0000000000001bd8        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+
+.plt            0x0000000000001be0      0x3e0
+ *(.plt)
+ .plt           0x0000000000001be0      0x3e0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.iplt)
+
+.text           0x0000000000001fc0     0x1c3c
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001fc0       0x34 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+                0x0000000000001fc0                _start
+ .text          0x0000000000001ff4       0x14 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+ *fill*         0x0000000000002008        0x8 1f2003d5
+ .text          0x0000000000002010       0xc4 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+ .text          0x00000000000020d4      0x418 build/main.o
+                0x00000000000020d4                threadFunction()
+                0x000000000000222c                main
+                0x0000000000002378                sum(void*)
+ .text._ZNSt11char_traitsIcE6lengthEPKc
+                0x00000000000024ec       0x40 build/main.o
+                0x00000000000024ec                std::char_traits<char>::length(char const*)
+ .text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+                0x000000000000252c       0x18 build/main.o
+                0x000000000000252c                std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_
+                0x0000000000002544       0x28 build/main.o
+                0x0000000000002544                std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+ .text._ZNSt6chrono15duration_valuesIlE4zeroEv
+                0x000000000000256c        0x8 build/main.o
+                0x000000000000256c                std::chrono::duration_values<long>::zero()
+ .text._ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE
+                0x0000000000002574       0x70 build/main.o
+                0x0000000000002574                std::chrono::_V2::system_clock::to_time_t(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IlvEERKT_
+                0x00000000000025e4       0x28 build/main.o
+                0x00000000000025e4                std::chrono::duration<long, std::ratio<1l, 1l> >::duration<long, void>(long const&)
+ .text._ZNSt6thread2idC2Ev
+                0x000000000000260c       0x1c build/main.o
+                0x000000000000260c                std::thread::id::id()
+                0x000000000000260c                std::thread::id::id()
+ .text._ZNSt6thread2idC2Em
+                0x0000000000002628       0x24 build/main.o
+                0x0000000000002628                std::thread::id::id(unsigned long)
+                0x0000000000002628                std::thread::id::id(unsigned long)
+ .text._ZNSt6threadD2Ev
+                0x000000000000264c       0x30 build/main.o
+                0x000000000000264c                std::thread::~thread()
+                0x000000000000264c                std::thread::~thread()
+ .text._ZNKSt6thread8joinableEv
+                0x000000000000267c       0x74 build/main.o
+                0x000000000000267c                std::thread::joinable() const
+ .text._ZSteqNSt6thread2idES0_
+                0x00000000000026f0       0x28 build/main.o
+                0x00000000000026f0                std::operator==(std::thread::id, std::thread::id)
+ .text._ZNSt11this_thread6get_idEv
+                0x0000000000002718       0x60 build/main.o
+                0x0000000000002718                std::this_thread::get_id()
+ .text._ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+                0x0000000000002778       0x30 build/main.o
+                0x0000000000002778                __gnu_cxx::char_traits<char>::eq(char const&, char const&)
+ .text._ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+                0x00000000000027a8       0x94 build/main.o
+                0x00000000000027a8                __gnu_cxx::char_traits<char>::length(char const*)
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD2Ev
+                0x000000000000283c       0x20 build/main.o
+                0x000000000000283c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::~_Alloc_hider()
+                0x000000000000283c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::~_Alloc_hider()
+ .text._ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+                0x000000000000285c       0x18 build/main.o
+                0x000000000000285c                std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const
+ .text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+                0x0000000000002874       0x1c build/main.o
+                0x0000000000002874                std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1l> > >::value, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+ .text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
+                0x0000000000002890       0x18 build/main.o
+                0x0000000000002890                std::chrono::duration<long, std::ratio<1l, 1l> >::count() const
+ .text._ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_NSt6thread2idE
+                0x00000000000028a8       0x9c build/main.o
+                0x00000000000028a8                std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::thread::id)
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+                0x0000000000002944       0xcc build/main.o
+                0x0000000000002944                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+                0x0000000000002944                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000EEEC2IivEERKT_
+                0x0000000000002a10       0x2c build/main.o
+                0x0000000000002a10                std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<int, void>(int const&)
+                0x0000000000002a10                std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<int, void>(int const&)
+ .text._ZNSt6chronoleIlSt5ratioILl1ELl1000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE
+                0x0000000000002a3c       0x30 build/main.o
+                0x0000000000002a3c                bool std::chrono::operator<=<long, std::ratio<1l, 1000l>, long, std::ratio<1l, 1000l> >(std::chrono::duration<long, std::ratio<1l, 1000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&)
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000EEE4zeroEv
+                0x0000000000002a6c       0x64 build/main.o
+                0x0000000000002a6c                std::chrono::duration<long, std::ratio<1l, 1000l> >::zero()
+ .text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+                0x0000000000002ad0       0x1c build/main.o
+                0x0000000000002ad0                std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1l> > >::value, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000l> >(std::chrono::duration<long, std::ratio<1l, 1000l> > const&)
+ .text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+                0x0000000000002aec       0x1c build/main.o
+                0x0000000000002aec                std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::value, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, long, std::ratio<1l, 1000l> >(std::chrono::duration<long, std::ratio<1l, 1000l> > const&)
+ .text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1000EEE5countEv
+                0x0000000000002b08       0x18 build/main.o
+                0x0000000000002b08                std::chrono::duration<long, std::ratio<1l, 1000l> >::count() const
+ .text._ZNSt6chronomiIlSt5ratioILl1ELl1000EElS1_ILl1ELl1EEEENSt11common_typeIJNS_8durationIT_T0_EENS5_IT1_T2_EEEE4typeERKS8_RKSB_
+                0x0000000000002b20       0xa0 build/main.o
+                0x0000000000002b20                std::common_type<std::chrono::duration<long, std::ratio<1l, 1000l> >, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000l>, long, std::ratio<1l, 1l> >(std::chrono::duration<long, std::ratio<1l, 1000l> > const&, std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ .text._ZNSt11this_thread9sleep_forIlSt5ratioILl1ELl1000EEEEvRKNSt6chrono8durationIT_T0_EE
+                0x0000000000002bc0       0xf4 build/main.o
+                0x0000000000002bc0                void std::this_thread::sleep_for<long, std::ratio<1l, 1000l> >(std::chrono::duration<long, std::ratio<1l, 1000l> > const&)
+ .text._ZNSt6threadC2IRFvvEJEvEEOT_DpOT0_
+                0x0000000000002cb4       0xe8 build/main.o
+                0x0000000000002cb4                std::thread::thread<void (&)(), , void>(void (&)())
+                0x0000000000002cb4                std::thread::thread<void (&)(), , void>(void (&)())
+ .text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000000000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE
+                0x0000000000002d9c       0x8c build/main.o
+                0x0000000000002d9c                std::chrono::duration<long, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+ .text._ZSt8distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_
+                0x0000000000002e28       0x3c build/main.o
+                0x0000000000002e28                std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*)
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+                0x0000000000002e64      0x138 build/main.o
+                0x0000000000002e64                void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+ .text._ZNSt6chronoltIlSt5ratioILl1ELl1000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE
+                0x0000000000002f9c       0x94 build/main.o
+                0x0000000000002f9c                bool std::chrono::operator< <long, std::ratio<1l, 1000l>, long, std::ratio<1l, 1000l> >(std::chrono::duration<long, std::ratio<1l, 1000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&)
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000EEEC2IlvEERKT_
+                0x0000000000003030       0x28 build/main.o
+                0x0000000000003030                std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<long, void>(long const&)
+                0x0000000000003030                std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<long, void>(long const&)
+ .text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE
+                0x0000000000003058       0x8c build/main.o
+                0x0000000000003058                std::chrono::duration<long, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1l> >, std::ratio<1l, 1000l>, long, true, false>::__cast<long, std::ratio<1l, 1000l> >(std::chrono::duration<long, std::ratio<1l, 1000l> > const&)
+ .text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1000EEEES4_RKNS1_IT_T0_EE
+                0x00000000000030e4       0x7c build/main.o
+                0x00000000000030e4                std::chrono::duration<long, std::ratio<1l, 1000000000l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::ratio<1000000l, 1l>, long, false, true>::__cast<long, std::ratio<1l, 1000l> >(std::chrono::duration<long, std::ratio<1l, 1000l> > const&)
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+                0x0000000000003160       0x70 build/main.o
+                0x0000000000003160                std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1l>, void>(std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+                0x0000000000003160                std::chrono::duration<long, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1l>, void>(std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ .text._ZSt7forwardIRFvvEEOT_RNSt16remove_referenceIS2_E4typeE
+                0x00000000000031d0       0x14 build/main.o
+                0x00000000000031d0                void (&std::forward<void (&)()>(std::remove_reference<void (&)()>::type&))()
+ .text._ZNSt6thread6_StateC2Ev
+                0x00000000000031e4       0x28 build/main.o
+                0x00000000000031e4                std::thread::_State::_State()
+                0x00000000000031e4                std::thread::_State::_State()
+ .text._ZNSt5tupleIJPFvvEEEC2ILb1ELb1EEERKS1_
+                0x000000000000320c       0x28 build/main.o
+                0x000000000000320c                std::tuple<void (*)()>::tuple<true, true>(void (* const&)())
+                0x000000000000320c                std::tuple<void (*)()>::tuple<true, true>(void (* const&)())
+ .text._ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEEC2IJRS3_EEEDpOT_
+                0x0000000000003234       0x94 build/main.o
+                0x0000000000003234                std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_State_impl<void (&)()>(void (&)())
+                0x0000000000003234                std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_State_impl<void (&)()>(void (&)())
+ .text._ZNSt15__uniq_ptr_dataINSt6thread6_StateESt14default_deleteIS1_ELb1ELb1EECI2St15__uniq_ptr_implIS1_S3_EEPS1_
+                0x00000000000032c8       0x28 build/main.o
+                0x00000000000032c8                std::__uniq_ptr_data<std::thread::_State, std::default_delete<std::thread::_State>, true, true>::__uniq_ptr_impl(std::thread::_State*)
+                0x00000000000032c8                std::__uniq_ptr_data<std::thread::_State, std::default_delete<std::thread::_State>, true, true>::__uniq_ptr_impl(std::thread::_State*)
+ .text._ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EEC2IS3_vEEPS1_
+                0x00000000000032f0       0x28 build/main.o
+                0x00000000000032f0                std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >::unique_ptr<std::default_delete<std::thread::_State>, void>(std::thread::_State*)
+                0x00000000000032f0                std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >::unique_ptr<std::default_delete<std::thread::_State>, void>(std::thread::_State*)
+ .text._ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EED2Ev
+                0x0000000000003318       0x68 build/main.o
+                0x0000000000003318                std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >::~unique_ptr()
+                0x0000000000003318                std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >::~unique_ptr()
+ .text._ZN9__gnu_cxx17__is_null_pointerIKcEEbPT_
+                0x0000000000003380       0x20 build/main.o
+                0x0000000000003380                bool __gnu_cxx::__is_null_pointer<char const>(char const*)
+ .text._ZSt19__iterator_categoryIPKcENSt15iterator_traitsIT_E17iterator_categoryERKS3_
+                0x00000000000033a0       0x14 build/main.o
+                0x00000000000033a0                std::iterator_traits<char const*>::iterator_category std::__iterator_category<char const*>(char const* const&)
+ .text._ZSt10__distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_St26random_access_iterator_tag
+                0x00000000000033b4       0x24 build/main.o
+                0x00000000000033b4                std::iterator_traits<char const*>::difference_type std::__distance<char const*>(char const*, char const*, std::random_access_iterator_tag)
+ .text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+                0x00000000000033d8       0x1c build/main.o
+                0x00000000000033d8                std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1000l> > >::value, std::chrono::duration<long, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1l> >(std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ .text._ZNSt11_Tuple_implILm0EJPFvvEEEC2ERKS1_
+                0x00000000000033f4       0x28 build/main.o
+                0x00000000000033f4                std::_Tuple_impl<0ul, void (*)()>::_Tuple_impl(void (* const&)())
+                0x00000000000033f4                std::_Tuple_impl<0ul, void (*)()>::_Tuple_impl(void (* const&)())
+ .text._ZNSt15__uniq_ptr_implINSt6thread6_StateESt14default_deleteIS1_EEC2EPS1_
+                0x000000000000341c       0x3c build/main.o
+                0x000000000000341c                std::__uniq_ptr_impl<std::thread::_State, std::default_delete<std::thread::_State> >::__uniq_ptr_impl(std::thread::_State*)
+                0x000000000000341c                std::__uniq_ptr_impl<std::thread::_State, std::default_delete<std::thread::_State> >::__uniq_ptr_impl(std::thread::_State*)
+ .text._ZNSt15__uniq_ptr_implINSt6thread6_StateESt14default_deleteIS1_EE6_M_ptrEv
+                0x0000000000003458       0x1c build/main.o
+                0x0000000000003458                std::__uniq_ptr_impl<std::thread::_State, std::default_delete<std::thread::_State> >::_M_ptr()
+ .text._ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EE11get_deleterEv
+                0x0000000000003474       0x1c build/main.o
+                0x0000000000003474                std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >::get_deleter()
+ .text._ZSt4moveIRPNSt6thread6_StateEEONSt16remove_referenceIT_E4typeEOS5_
+                0x0000000000003490       0x14 build/main.o
+                0x0000000000003490                std::remove_reference<std::thread::_State*&>::type&& std::move<std::thread::_State*&>(std::thread::_State*&)
+ .text._ZNKSt14default_deleteINSt6thread6_StateEEclEPS1_
+                0x00000000000034a4       0x38 build/main.o
+                0x00000000000034a4                std::default_delete<std::thread::_State>::operator()(std::thread::_State*) const
+ .text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000EEEES2_ILl1000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE
+                0x00000000000034dc       0x88 build/main.o
+                0x00000000000034dc                std::chrono::duration<long, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1000l> >, std::ratio<1000l, 1l>, long, false, true>::__cast<long, std::ratio<1l, 1l> >(std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ .text._ZNSt10_Head_baseILm0EPFvvELb0EEC2ERKS1_
+                0x0000000000003564       0x28 build/main.o
+                0x0000000000003564                std::_Head_base<0ul, void (*)(), false>::_Head_base(void (* const&)())
+                0x0000000000003564                std::_Head_base<0ul, void (*)(), false>::_Head_base(void (* const&)())
+ .text._ZNSt5tupleIJPNSt6thread6_StateESt14default_deleteIS1_EEEC2ILb1ELb1EEEv
+                0x000000000000358c       0x20 build/main.o
+                0x000000000000358c                std::tuple<std::thread::_State*, std::default_delete<std::thread::_State> >::tuple<true, true>()
+                0x000000000000358c                std::tuple<std::thread::_State*, std::default_delete<std::thread::_State> >::tuple<true, true>()
+ .text._ZSt3getILm0EJPNSt6thread6_StateESt14default_deleteIS1_EEERNSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeERS9_
+                0x00000000000035ac       0x1c build/main.o
+                0x00000000000035ac                std::tuple_element<0ul, std::tuple<std::thread::_State*, std::default_delete<std::thread::_State> > >::type& std::get<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >(std::tuple<std::thread::_State*, std::default_delete<std::thread::_State> >&)
+ .text._ZNSt15__uniq_ptr_implINSt6thread6_StateESt14default_deleteIS1_EE10_M_deleterEv
+                0x00000000000035c8       0x1c build/main.o
+                0x00000000000035c8                std::__uniq_ptr_impl<std::thread::_State, std::default_delete<std::thread::_State> >::_M_deleter()
+ .text._ZNSt11_Tuple_implILm0EJPNSt6thread6_StateESt14default_deleteIS1_EEEC2Ev
+                0x00000000000035e4       0x28 build/main.o
+                0x00000000000035e4                std::_Tuple_impl<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >::_Tuple_impl()
+                0x00000000000035e4                std::_Tuple_impl<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >::_Tuple_impl()
+ .text._ZSt12__get_helperILm0EPNSt6thread6_StateEJSt14default_deleteIS1_EEERT0_RSt11_Tuple_implIXT_EJS5_DpT1_EE
+                0x000000000000360c       0x1c build/main.o
+                0x000000000000360c                std::thread::_State*& std::__get_helper<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >(std::_Tuple_impl<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >&)
+ .text._ZSt3getILm1EJPNSt6thread6_StateESt14default_deleteIS1_EEERNSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeERS9_
+                0x0000000000003628       0x1c build/main.o
+                0x0000000000003628                std::tuple_element<1ul, std::tuple<std::thread::_State*, std::default_delete<std::thread::_State> > >::type& std::get<1ul, std::thread::_State*, std::default_delete<std::thread::_State> >(std::tuple<std::thread::_State*, std::default_delete<std::thread::_State> >&)
+ .text._ZNSt11_Tuple_implILm1EJSt14default_deleteINSt6thread6_StateEEEEC2Ev
+                0x0000000000003644       0x20 build/main.o
+                0x0000000000003644                std::_Tuple_impl<1ul, std::default_delete<std::thread::_State> >::_Tuple_impl()
+                0x0000000000003644                std::_Tuple_impl<1ul, std::default_delete<std::thread::_State> >::_Tuple_impl()
+ .text._ZNSt10_Head_baseILm0EPNSt6thread6_StateELb0EEC2Ev
+                0x0000000000003664       0x1c build/main.o
+                0x0000000000003664                std::_Head_base<0ul, std::thread::_State*, false>::_Head_base()
+                0x0000000000003664                std::_Head_base<0ul, std::thread::_State*, false>::_Head_base()
+ .text._ZNSt11_Tuple_implILm0EJPNSt6thread6_StateESt14default_deleteIS1_EEE7_M_headERS5_
+                0x0000000000003680       0x1c build/main.o
+                0x0000000000003680                std::_Tuple_impl<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >::_M_head(std::_Tuple_impl<0ul, std::thread::_State*, std::default_delete<std::thread::_State> >&)
+ .text._ZSt12__get_helperILm1ESt14default_deleteINSt6thread6_StateEEJEERT0_RSt11_Tuple_implIXT_EJS4_DpT1_EE
+                0x000000000000369c       0x1c build/main.o
+                0x000000000000369c                std::default_delete<std::thread::_State>& std::__get_helper<1ul, std::default_delete<std::thread::_State>>(std::_Tuple_impl<1ul, std::default_delete<std::thread::_State>>&)
+ .text._ZNSt10_Head_baseILm1ESt14default_deleteINSt6thread6_StateEELb1EEC2Ev
+                0x00000000000036b8       0x14 build/main.o
+                0x00000000000036b8                std::_Head_base<1ul, std::default_delete<std::thread::_State>, true>::_Head_base()
+                0x00000000000036b8                std::_Head_base<1ul, std::default_delete<std::thread::_State>, true>::_Head_base()
+ .text._ZNSt10_Head_baseILm0EPNSt6thread6_StateELb0EE7_M_headERS3_
+                0x00000000000036cc       0x14 build/main.o
+                0x00000000000036cc                std::_Head_base<0ul, std::thread::_State*, false>::_M_head(std::_Head_base<0ul, std::thread::_State*, false>&)
+ .text._ZNSt11_Tuple_implILm1EJSt14default_deleteINSt6thread6_StateEEEE7_M_headERS4_
+                0x00000000000036e0       0x1c build/main.o
+                0x00000000000036e0                std::_Tuple_impl<1ul, std::default_delete<std::thread::_State> >::_M_head(std::_Tuple_impl<1ul, std::default_delete<std::thread::_State> >&)
+ .text._ZNSt10_Head_baseILm1ESt14default_deleteINSt6thread6_StateEELb1EE7_M_headERS4_
+                0x00000000000036fc       0x14 build/main.o
+                0x00000000000036fc                std::_Head_base<1ul, std::default_delete<std::thread::_State>, true>::_M_head(std::_Head_base<1ul, std::default_delete<std::thread::_State>, true>&)
+ .text._ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEED2Ev
+                0x0000000000003710       0x30 build/main.o
+                0x0000000000003710                std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::~_State_impl()
+                0x0000000000003710                std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::~_State_impl()
+ .text._ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEED0Ev
+                0x0000000000003740       0x28 build/main.o
+                0x0000000000003740                std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::~_State_impl()
+ .text._ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEE6_M_runEv
+                0x0000000000003768       0x24 build/main.o
+                0x0000000000003768                std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >::_M_run()
+ .text._ZNSt6thread8_InvokerISt5tupleIJPFvvEEEEclEv
+                0x000000000000378c       0x20 build/main.o
+                0x000000000000378c                std::thread::_Invoker<std::tuple<void (*)()> >::operator()()
+ .text._ZNSt6thread8_InvokerISt5tupleIJPFvvEEEE9_M_invokeIJLm0EEEEvSt12_Index_tupleIJXspT_EEE
+                0x00000000000037ac       0x2c build/main.o
+                0x00000000000037ac                void std::thread::_Invoker<std::tuple<void (*)()> >::_M_invoke<0ul>(std::_Index_tuple<0ul>)
+ .text._ZSt4moveIRSt5tupleIJPFvvEEEEONSt16remove_referenceIT_E4typeEOS6_
+                0x00000000000037d8       0x14 build/main.o
+                0x00000000000037d8                std::remove_reference<std::tuple<void (*)()>&>::type&& std::move<std::tuple<void (*)()>&>(std::tuple<void (*)()>&)
+ .text._ZSt3getILm0EJPFvvEEEONSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeEOS6_
+                0x00000000000037ec       0x20 build/main.o
+                0x00000000000037ec                std::tuple_element<0ul, std::tuple<void (*)()> >::type&& std::get<0ul, void (*)()>(std::tuple<void (*)()>&&)
+ .text._ZSt8__invokeIPFvvEJEENSt15__invoke_resultIT_JDpT0_EE4typeEOS3_DpOS4_
+                0x000000000000380c       0x34 build/main.o
+                0x000000000000380c                std::__invoke_result<void (*)()>::type std::__invoke<void (*)()>(void (*&&)())
+ .text._ZSt12__get_helperILm0EPFvvEJEERT0_RSt11_Tuple_implIXT_EJS2_DpT1_EE
+                0x0000000000003840       0x1c build/main.o
+                0x0000000000003840                void (*&std::__get_helper<0ul, void (*)()>(std::_Tuple_impl<0ul, void (*)()>&))()
+ .text._ZSt7forwardIPFvvEEOT_RNSt16remove_referenceIS2_E4typeE
+                0x000000000000385c       0x14 build/main.o
+                0x000000000000385c                void (*&&std::forward<void (*)()>(std::remove_reference<void (*)()>::type&))()
+ .text._ZSt13__invoke_implIvPFvvEJEET_St14__invoke_otherOT0_DpOT1_
+                0x0000000000003870       0x2c build/main.o
+                0x0000000000003870                void std::__invoke_impl<void, void (*)()>(std::__invoke_other, void (*&&)())
+ .text._ZNSt11_Tuple_implILm0EJPFvvEEE7_M_headERS2_
+                0x000000000000389c       0x1c build/main.o
+                0x000000000000389c                std::_Tuple_impl<0ul, void (*)()>::_M_head(std::_Tuple_impl<0ul, void (*)()>&)
+ .text._ZNSt10_Head_baseILm0EPFvvELb0EE7_M_headERS2_
+                0x00000000000038b8       0x14 build/main.o
+                0x00000000000038b8                std::_Head_base<0ul, void (*)(), false>::_M_head(std::_Head_base<0ul, void (*)(), false>&)
+ .text          0x00000000000038cc      0x330 build/udp.o
+                0x00000000000038cc                Udp::Udp()
+                0x00000000000038cc                Udp::Udp()
+                0x00000000000038f4                Udp::~Udp()
+                0x00000000000038f4                Udp::~Udp()
+                0x0000000000003924                Udp::send(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+                0x0000000000003988                Udp::read()
+                0x0000000000003a30                Udp::init()
+ .text          0x0000000000003bfc        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtendS.o
+ .text          0x0000000000003bfc        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+ *(.gnu.warning)
+
+.fini           0x0000000000003bfc       0x14
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000003bfc        0xc /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+                0x0000000000003bfc                _fini
+ .fini          0x0000000000003c08        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x0000000000003c10      0x141
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000000003c10        0x4 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+                0x0000000000003c10                _IO_stdin_used
+ *fill*         0x0000000000003c14        0x4 
+ .rodata        0x0000000000003c18       0xb2 build/main.o
+ *fill*         0x0000000000003cca        0x6 
+ .rodata._ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEEE
+                0x0000000000003cd0       0x3b build/main.o
+                0x0000000000003cd0                typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >
+ *fill*         0x0000000000003d0b        0x5 
+ .rodata        0x0000000000003d10       0x41 build/udp.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000003d54      0x32c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000003d54      0x32c /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+                0x0000000000003d54                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000004080      0xc04
+ *(.eh_frame)
+ .eh_frame      0x0000000000004080       0x28 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .eh_frame      0x00000000000040a8       0x60 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+                                         0x78 (размер перед ослаблением)
+ .eh_frame      0x0000000000004108      0xa90 build/main.o
+                                        0xaa0 (размер перед ослаблением)
+ .eh_frame      0x0000000000004b98       0xe8 build/udp.o
+                                        0x100 (размер перед ослаблением)
+ .eh_frame      0x0000000000004c80        0x4 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+                0x0000000000004c84       0xa0
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table._ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE
+                0x0000000000004c84        0x4 build/main.o
+ .gcc_except_table
+                0x0000000000004c88       0x9c build/main.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000015b20                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0000000000015b20        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000015b20        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000015b20       0x18
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000015b20        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+ .init_array    0x0000000000015b28        0x8 build/main.o
+ .init_array    0x0000000000015b30        0x8 build/udp.o
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000015b38        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000015b38        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000015b40       0x40
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local._ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEEE
+                0x0000000000015b40       0x28 build/main.o
+                0x0000000000015b40                vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000015b68        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .data.rel.ro._ZTINSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEEE
+                0x0000000000015b68       0x18 build/main.o
+                0x0000000000015b68                typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (*)()> > >
+
+.dynamic        0x0000000000015b80      0x220
+ *(.dynamic)
+ .dynamic       0x0000000000015b80      0x220 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+                0x0000000000015b80                _DYNAMIC
+
+.got            0x0000000000015da0      0x260
+ *(.got.plt)
+ .got.plt       0x0000000000015da0      0x1f8 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000015f98       0x68 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+                0x0000000000015f98                _GLOBAL_OFFSET_TABLE_
+ *(.igot)
+                0x0000000000016000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000016000       0x20
+                [!provide]                        PROVIDE (__data_start = .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000016000        0x4 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+                0x0000000000016000                data_start
+                0x0000000000016000                __data_start
+ .data          0x0000000000016004        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+ .data          0x0000000000016004        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+ *fill*         0x0000000000016004        0x4 
+ .data.rel.local
+                0x0000000000016008        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+                0x0000000000016008                __dso_handle
+ .data          0x0000000000016010        0x8 build/main.o
+                0x0000000000016010                arrSum
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000016018        0x8 build/main.o
+                0x0000000000016018                DW.ref.__gxx_personality_v0
+ .data          0x0000000000016020        0x0 build/udp.o
+ .data          0x0000000000016020        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtendS.o
+ .data          0x0000000000016020        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+
+.tm_clone_table
+                0x0000000000016020        0x0
+ .tm_clone_table
+                0x0000000000016020        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+ .tm_clone_table
+                0x0000000000016020        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000016020                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000016020                . = .
+                0x0000000000016020                __bss_start = .
+                0x0000000000016020                __bss_start__ = .
+
+.bss            0x0000000000016020      0x138
+ *(.dynbss)
+ .dynbss        0x0000000000016020        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000016020        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .bss           0x0000000000016020        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+ .bss           0x0000000000016020        0x1 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+ *fill*         0x0000000000016021        0x7 
+ .bss           0x0000000000016028      0x121 build/main.o
+                0x0000000000016028                udp
+ *fill*         0x0000000000016149        0x7 
+ .bss           0x0000000000016150        0x1 build/udp.o
+ .bss           0x0000000000016151        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtendS.o
+ .bss           0x0000000000016151        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+ *(COMMON)
+                0x0000000000016158                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000016151        0x7 
+                0x0000000000016158                _bss_end__ = .
+                0x0000000000016158                __bss_end__ = .
+                0x0000000000016158                . = ALIGN (0x8)
+                0x0000000000016158                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000016158                . = ALIGN (0x8)
+                0x0000000000016158                __end__ = .
+                0x0000000000016158                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000016158                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x25
+ *(.comment)
+ .comment       0x0000000000000000       0x25 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtbeginS.o
+                                         0x26 (размер перед ослаблением)
+ .comment       0x0000000000000025       0x26 build/main.o
+ .comment       0x0000000000000025       0x26 build/udp.o
+ .comment       0x0000000000000025       0x26 /usr/lib/gcc-cross/aarch64-linux-gnu/11/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x590
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x560 build/main.o
+ .debug_aranges
+                0x0000000000000560       0x30 build/udp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xf987
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0xa1ef build/main.o
+ .debug_info    0x000000000000a1ef     0x5798 build/udp.o
+
+.debug_abbrev   0x0000000000000000     0x17ff
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0xf99 build/main.o
+ .debug_abbrev  0x0000000000000f99      0x866 build/udp.o
+
+.debug_line     0x0000000000000000     0x1782
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x1222 build/main.o
+ .debug_line    0x0000000000001222      0x560 build/udp.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000    0x25d6d
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x25ca4 build/main.o
+                                      0x266f9 (размер перед ослаблением)
+ .debug_str     0x0000000000025ca4       0xc9 build/udp.o
+                                      0x1cca4 (размер перед ослаблением)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000      0xded
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000      0xde1 build/main.o
+                                        0xfcc (размер перед ослаблением)
+ .debug_line_str
+                0x0000000000000de1        0xc build/udp.o
+                                        0xd5b (размер перед ослаблением)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro    0x0000000000000000     0x7307
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0xd43 build/main.o
+ .debug_macro   0x0000000000000d43      0xb1a build/main.o
+ .debug_macro   0x000000000000185d       0x1c build/main.o
+ .debug_macro   0x0000000000001879      0x2a1 build/main.o
+ .debug_macro   0x0000000000001b1a       0x10 build/main.o
+ .debug_macro   0x0000000000001b2a       0x58 build/main.o
+ .debug_macro   0x0000000000001b82      0x19e build/main.o
+ .debug_macro   0x0000000000001d20       0x74 build/main.o
+ .debug_macro   0x0000000000001d94       0x4c build/main.o
+ .debug_macro   0x0000000000001de0       0x64 build/main.o
+ .debug_macro   0x0000000000001e44      0x191 build/main.o
+ .debug_macro   0x0000000000001fd5       0x4c build/main.o
+ .debug_macro   0x0000000000002021       0x19 build/main.o
+ .debug_macro   0x000000000000203a       0x67 build/main.o
+ .debug_macro   0x00000000000020a1      0x100 build/main.o
+ .debug_macro   0x00000000000021a1       0x10 build/main.o
+ .debug_macro   0x00000000000021b1       0x19 build/main.o
+ .debug_macro   0x00000000000021ca       0x97 build/main.o
+ .debug_macro   0x0000000000002261       0x90 build/main.o
+ .debug_macro   0x00000000000022f1      0x832 build/main.o
+ .debug_macro   0x0000000000002b23       0x27 build/main.o
+ .debug_macro   0x0000000000002b4a       0x16 build/main.o
+ .debug_macro   0x0000000000002b60       0x10 build/main.o
+ .debug_macro   0x0000000000002b70       0x5e build/main.o
+ .debug_macro   0x0000000000002bce       0x10 build/main.o
+ .debug_macro   0x0000000000002bde       0x20 build/main.o
+ .debug_macro   0x0000000000002bfe       0x10 build/main.o
+ .debug_macro   0x0000000000002c0e       0x34 build/main.o
+ .debug_macro   0x0000000000002c42       0x4c build/main.o
+ .debug_macro   0x0000000000002c8e       0x34 build/main.o
+ .debug_macro   0x0000000000002cc2       0x3c build/main.o
+ .debug_macro   0x0000000000002cfe       0x28 build/main.o
+ .debug_macro   0x0000000000002d26       0x86 build/main.o
+ .debug_macro   0x0000000000002dac       0x7c build/main.o
+ .debug_macro   0x0000000000002e28       0x9a build/main.o
+ .debug_macro   0x0000000000002ec2       0x10 build/main.o
+ .debug_macro   0x0000000000002ed2       0x1c build/main.o
+ .debug_macro   0x0000000000002eee       0x10 build/main.o
+ .debug_macro   0x0000000000002efe       0x10 build/main.o
+ .debug_macro   0x0000000000002f0e       0x10 build/main.o
+ .debug_macro   0x0000000000002f1e       0xb4 build/main.o
+ .debug_macro   0x0000000000002fd2      0x19a build/main.o
+ .debug_macro   0x000000000000316c       0x22 build/main.o
+ .debug_macro   0x000000000000318e       0x22 build/main.o
+ .debug_macro   0x00000000000031b0       0x12 build/main.o
+ .debug_macro   0x00000000000031c2       0x6a build/main.o
+ .debug_macro   0x000000000000322c       0x10 build/main.o
+ .debug_macro   0x000000000000323c       0x10 build/main.o
+ .debug_macro   0x000000000000324c       0x10 build/main.o
+ .debug_macro   0x000000000000325c       0x10 build/main.o
+ .debug_macro   0x000000000000326c       0x22 build/main.o
+ .debug_macro   0x000000000000328e       0x1d build/main.o
+ .debug_macro   0x00000000000032ab       0x82 build/main.o
+ .debug_macro   0x000000000000332d       0xa5 build/main.o
+ .debug_macro   0x00000000000033d2       0x19 build/main.o
+ .debug_macro   0x00000000000033eb       0x12 build/main.o
+ .debug_macro   0x00000000000033fd       0x10 build/main.o
+ .debug_macro   0x000000000000340d       0x10 build/main.o
+ .debug_macro   0x000000000000341d       0x1c build/main.o
+ .debug_macro   0x0000000000003439       0x46 build/main.o
+ .debug_macro   0x000000000000347f       0x45 build/main.o
+ .debug_macro   0x00000000000034c4       0x40 build/main.o
+ .debug_macro   0x0000000000003504       0x22 build/main.o
+ .debug_macro   0x0000000000003526       0x1c build/main.o
+ .debug_macro   0x0000000000003542       0x4c build/main.o
+ .debug_macro   0x000000000000358e       0x20 build/main.o
+ .debug_macro   0x00000000000035ae       0x4c build/main.o
+ .debug_macro   0x00000000000035fa       0x16 build/main.o
+ .debug_macro   0x0000000000003610       0x10 build/main.o
+ .debug_macro   0x0000000000003620       0x16 build/main.o
+ .debug_macro   0x0000000000003636       0x1c build/main.o
+ .debug_macro   0x0000000000003652       0x16 build/main.o
+ .debug_macro   0x0000000000003668       0x12 build/main.o
+ .debug_macro   0x000000000000367a       0x3a build/main.o
+ .debug_macro   0x00000000000036b4       0x4c build/main.o
+ .debug_macro   0x0000000000003700       0x52 build/main.o
+ .debug_macro   0x0000000000003752       0x16 build/main.o
+ .debug_macro   0x0000000000003768       0xd0 build/main.o
+ .debug_macro   0x0000000000003838       0x5e build/main.o
+ .debug_macro   0x0000000000003896       0x94 build/main.o
+ .debug_macro   0x000000000000392a       0x16 build/main.o
+ .debug_macro   0x0000000000003940       0x58 build/main.o
+ .debug_macro   0x0000000000003998      0x108 build/main.o
+ .debug_macro   0x0000000000003aa0       0x11 build/main.o
+ .debug_macro   0x0000000000003ab1       0x10 build/main.o
+ .debug_macro   0x0000000000003ac1       0xbf build/main.o
+ .debug_macro   0x0000000000003b80      0x1b2 build/main.o
+ .debug_macro   0x0000000000003d32       0x22 build/main.o
+ .debug_macro   0x0000000000003d54       0xc8 build/main.o
+ .debug_macro   0x0000000000003e1c      0x103 build/main.o
+ .debug_macro   0x0000000000003f1f      0x5ec build/main.o
+ .debug_macro   0x000000000000450b       0x10 build/main.o
+ .debug_macro   0x000000000000451b       0x16 build/main.o
+ .debug_macro   0x0000000000004531       0x97 build/main.o
+ .debug_macro   0x00000000000045c8       0x16 build/main.o
+ .debug_macro   0x00000000000045de       0x10 build/main.o
+ .debug_macro   0x00000000000045ee       0x1c build/main.o
+ .debug_macro   0x000000000000460a      0x173 build/main.o
+ .debug_macro   0x000000000000477d       0x1c build/main.o
+ .debug_macro   0x0000000000004799       0x94 build/main.o
+ .debug_macro   0x000000000000482d       0x10 build/main.o
+ .debug_macro   0x000000000000483d       0x10 build/main.o
+ .debug_macro   0x000000000000484d       0x11 build/main.o
+ .debug_macro   0x000000000000485e       0x11 build/main.o
+ .debug_macro   0x000000000000486f       0x6a build/main.o
+ .debug_macro   0x00000000000048d9       0x20 build/main.o
+ .debug_macro   0x00000000000048f9       0x18 build/main.o
+ .debug_macro   0x0000000000004911       0x4f build/main.o
+ .debug_macro   0x0000000000004960       0x28 build/main.o
+ .debug_macro   0x0000000000004988       0x2e build/main.o
+ .debug_macro   0x00000000000049b6       0x1f build/main.o
+ .debug_macro   0x00000000000049d5       0x88 build/main.o
+ .debug_macro   0x0000000000004a5d       0x19 build/main.o
+ .debug_macro   0x0000000000004a76       0x11 build/main.o
+ .debug_macro   0x0000000000004a87       0x1c build/main.o
+ .debug_macro   0x0000000000004aa3       0x10 build/main.o
+ .debug_macro   0x0000000000004ab3      0x28b build/main.o
+ .debug_macro   0x0000000000004d3e       0x10 build/main.o
+ .debug_macro   0x0000000000004d4e       0x35 build/main.o
+ .debug_macro   0x0000000000004d83       0x58 build/main.o
+ .debug_macro   0x0000000000004ddb       0xb4 build/main.o
+ .debug_macro   0x0000000000004e8f       0x16 build/main.o
+ .debug_macro   0x0000000000004ea5       0x10 build/main.o
+ .debug_macro   0x0000000000004eb5       0x37 build/main.o
+ .debug_macro   0x0000000000004eec       0x5e build/main.o
+ .debug_macro   0x0000000000004f4a       0x11 build/main.o
+ .debug_macro   0x0000000000004f5b       0x5f build/main.o
+ .debug_macro   0x0000000000004fba       0x16 build/main.o
+ .debug_macro   0x0000000000004fd0       0x11 build/main.o
+ .debug_macro   0x0000000000004fe1       0x11 build/main.o
+ .debug_macro   0x0000000000004ff2       0x17 build/main.o
+ .debug_macro   0x0000000000005009       0x10 build/main.o
+ .debug_macro   0x0000000000005019       0x16 build/main.o
+ .debug_macro   0x000000000000502f       0x2e build/main.o
+ .debug_macro   0x000000000000505d       0x10 build/main.o
+ .debug_macro   0x000000000000506d       0x10 build/main.o
+ .debug_macro   0x000000000000507d       0x1c build/main.o
+ .debug_macro   0x0000000000005099       0xf0 build/main.o
+ .debug_macro   0x0000000000005189      0x11d build/main.o
+ .debug_macro   0x00000000000052a6       0xd6 build/main.o
+ .debug_macro   0x000000000000537c      0x256 build/main.o
+ .debug_macro   0x00000000000055d2       0x17 build/main.o
+ .debug_macro   0x00000000000055e9       0x10 build/main.o
+ .debug_macro   0x00000000000055f9       0x76 build/main.o
+ .debug_macro   0x000000000000566f       0x1c build/main.o
+ .debug_macro   0x000000000000568b      0x126 build/main.o
+ .debug_macro   0x00000000000057b1       0x46 build/main.o
+ .debug_macro   0x00000000000057f7       0x20 build/main.o
+ .debug_macro   0x0000000000005817       0x27 build/main.o
+ .debug_macro   0x000000000000583e       0x19 build/main.o
+ .debug_macro   0x0000000000005857       0x22 build/main.o
+ .debug_macro   0x0000000000005879       0x11 build/main.o
+ .debug_macro   0x000000000000588a       0x10 build/main.o
+ .debug_macro   0x000000000000589a       0x10 build/main.o
+ .debug_macro   0x00000000000058aa       0x3a build/main.o
+ .debug_macro   0x00000000000058e4      0x30c build/main.o
+ .debug_macro   0x0000000000005bf0       0x1c build/main.o
+ .debug_macro   0x0000000000005c0c       0xe4 build/main.o
+ .debug_macro   0x0000000000005cf0       0x34 build/main.o
+ .debug_macro   0x0000000000005d24      0x204 build/main.o
+ .debug_macro   0x0000000000005f28       0x22 build/main.o
+ .debug_macro   0x0000000000005f4a      0x3b1 build/main.o
+ .debug_macro   0x00000000000062fb      0x1d3 build/main.o
+ .debug_macro   0x00000000000064ce       0x5f build/main.o
+ .debug_macro   0x000000000000652d      0xa98 build/udp.o
+ .debug_macro   0x0000000000006fc5       0x5e build/udp.o
+ .debug_macro   0x0000000000007023       0x19 build/udp.o
+ .debug_macro   0x000000000000703c       0x89 build/udp.o
+ .debug_macro   0x00000000000070c5       0x1c build/udp.o
+ .debug_macro   0x00000000000070e1       0x6a build/udp.o
+ .debug_macro   0x000000000000714b       0x27 build/udp.o
+ .debug_macro   0x0000000000007172       0x5f build/udp.o
+ .debug_macro   0x00000000000071d1       0x23 build/udp.o
+ .debug_macro   0x00000000000071f4       0x16 build/udp.o
+ .debug_macro   0x000000000000720a       0x4d build/udp.o
+ .debug_macro   0x0000000000007257       0x11 build/udp.o
+ .debug_macro   0x0000000000007268       0x27 build/udp.o
+ .debug_macro   0x000000000000728f       0x52 build/udp.o
+ .debug_macro   0x00000000000072e1       0x10 build/udp.o
+ .debug_macro   0x00000000000072f1       0x16 build/udp.o
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x0000000000000000      0x386
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x0000000000000000      0x386 build/main.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+ *(.ARM.attributes)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(build/main.elf elf64-littleaarch64)
+LOAD linker stubs
