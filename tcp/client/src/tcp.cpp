@@ -16,7 +16,9 @@ int Tcp::sendToClient(int sock,const std::string& str) {
 int Tcp::sendToServer(const std::string& str) {
     return send(sockfd, (const char*)str.data(), str.length(), 0);
 }
-
+int Tcp::readFromServer() {
+    return recv(sockfd, buff, sizeof(buff), 0);
+}
 int Tcp::listenConnections() {
     return listen(sockfd, 1);
 }

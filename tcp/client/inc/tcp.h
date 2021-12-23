@@ -13,8 +13,10 @@ public:
     ~Tcp();
     int sendToClient(int sock, const std::string &str);
     int sendToServer(const std::string& str);
+    int readFromServer();
     int sockfd=0;
     int listenConnections();
+    char buff[2000];
 private:
     void init_server();
     void init_client();
