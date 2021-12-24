@@ -43,8 +43,13 @@ void Tcp::init_server() {
     connectedSockFD = accept(sockfd, (sockaddr*)saddr_connected, &saddr_connected_len);
     std::cout << "connectedSockFD = " << connectedSockFD << std::endl;
     std::cout << "Connected IP:" << saddr_connected->sin_addr.s_addr << "\n";
+<<<<<<< HEAD
+    std::string strConnected = "Was Connected";
+    sendToClient(connectedSockFD, strConnected);
+=======
     std::string str = "Was Connected";
     sendToClient(connectedSockFD, str);
+>>>>>>> 489df5f1711191af0237fdbf4b8a56aa41b33992
     char buff[1540] = {0};
     while(1) {
         int size = recv(connectedSockFD, buff, sizeof(buff), 0);
@@ -58,9 +63,15 @@ void Tcp::init_server() {
             //for(auto& i : buff) {
             //    std::cout << i;
             //}
+<<<<<<< HEAD
+            std::string strReply = "GET Reply";
+            if(buff[0] == 'G') {
+                sendToClient(connectedSockFD, strReply);
+=======
             if(buff[0] == 'G' && buff[1] == 'E' && buff[2] == 'T' ) {
                 str = "GET reply";
                 sendToClient(connectedSockFD, str);
+>>>>>>> 489df5f1711191af0237fdbf4b8a56aa41b33992
             }
             if(buff[0] == 'e' && buff[1] == 'x' && buff[2] == 'i' && buff[3] == 't') {
                 str = "exit";
