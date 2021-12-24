@@ -1,5 +1,6 @@
 #include "tcp.h"
 #include <iostream>
+#include <fstream>
 
 Tcp::Tcp() {
     init_server();
@@ -55,12 +56,20 @@ void Tcp::init_server() {
                 std::cout<<buff[i];
             }
             std::cout << std::endl;
-            //for(auto& i : buff) {
-            //    std::cout << i;
-            //}
             if(buff[0] == 'G' && buff[1] == 'E' && buff[2] == 'T' ) {
-                str = "GET reply";
-                sendToClient(connectedSockFD, str);
+                std::ifstream file;
+                file.open("example.html");
+                if(!file.is_open()) {
+                    std::cout << "\n Cant open file";
+                } else {
+                    str.clear();
+                    std::string sendStr;
+                    while(std::getline(file,str)) {
+                        sendStr += str;
+                    }
+                    sendToClient(connectedSockFD, str);
+                    file.close();
+                }                    
             }
             if(buff[0] == 'e' && buff[1] == 'x' && buff[2] == 'i' && buff[3] == 't') {
                 str = "exit";
