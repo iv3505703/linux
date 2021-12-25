@@ -22,14 +22,17 @@ int Tcp::readFromServer() {
 int Tcp::listenConnections() {
     return listen(sockfd, 1);
 }
+void Tcp::closeIT(){
+    close(sockfd);
+}
 void Tcp::init_client() {
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     saddr_in = new struct sockaddr_in;
     std::cout << " saddr_in "<< saddr_in << " sockfd="<< sockfd << std::endl;
     saddr_in->sin_addr.s_addr = inet_addr("192.168.0.103");
-    //saddr_in->sin_addr.s_addr = inet_addr("192.168.0.106");
+    //saddr_in->sin_addr.s_addr = inet_addr("127.0.0.1");
     saddr_in->sin_family = AF_INET;
-    saddr_in->sin_port = htons(55555);
+    saddr_in->sin_port = htons(80);
     sock_len = sizeof(sockaddr_in);
     std::cout<<"socklen="<<sock_len<<std::endl;
     int b = connect(sockfd, (const sockaddr*)saddr_in, sock_len);

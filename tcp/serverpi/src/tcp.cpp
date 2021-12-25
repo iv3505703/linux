@@ -29,25 +29,29 @@ void Tcp::init_server() {
     saddr_connected = new struct sockaddr_in;
     std::cout << " saddr_in "<< saddr_in << " sockfd="<< sockfd << std::endl;
     saddr_in->sin_addr.s_addr = inet_addr("192.168.0.103");
-    //saddr_in->sin_addr.s_addr = inet_addr("192.168.0.106");
+    //saddr_in->sin_addr.s_addr = inet_addr("127.0.0.1");
     saddr_in->sin_family = AF_INET;
-    saddr_in->sin_port = htons(55555);
+    saddr_in->sin_port = htons(80);
     sock_len = sizeof(sockaddr_in);
     std::cout<<"socklen="<<sock_len<<std::endl;
     int b = bind(sockfd, (const sockaddr*)saddr_in, sock_len);
     if(b == -1) {
         std::cout<< "Error bind" << std::endl;
+        perror("Eroor In bind");
+        _exit(0);
     }
     listenConnections();
     int connectedSockFD = 0;
     socklen_t saddr_connected_len = sizeof(saddr_connected);
-    connectedSockFD = accept(sockfd, (sockaddr*)saddr_connected, &saddr_connected_len);
     std::cout << "connectedSockFD = " << connectedSockFD << std::endl;
     std::cout << "Connected IP:" << saddr_connected->sin_addr.s_addr << "\n";
-    std::string str = "Was Connected";
-    sendToClient(connectedSockFD, str);
+    std::string str;
     char buff[1540] = {0};
     while(1) {
+        if ((connectedSockFD = accept(sockfd, (sockaddr*)saddr_connected, &saddr_connected_len))<0) {
+            perror("In accept");
+            exit(EXIT_FAILURE);
+        }
         int size = recv(connectedSockFD, buff, sizeof(buff), 0);
         if(size > 0) {
             system("clear");
@@ -56,24 +60,41 @@ void Tcp::init_server() {
                 std::cout<<buff[i];
             }
             std::cout << std::endl;
-            if(buff[0] == 'G' && buff[1] == 'E' && buff[2] == 'T' ) {
+            if(buff[0] == 'G' && buff[1] == 'E' && buff[2] == 'T' ) {                
+                std::string sendStr;
                 std::ifstream file;
-                file.open("example.html");
+                file.open("head.c");
                 if(!file.is_open()) {
                     std::cout << "\n Cant open file";
                 } else {
                     str.clear();
-                    std::string sendStr;
                     while(std::getline(file,str)) {
-                        sendStr += str;
+                        sendStr += str + "\n";
                     }
-                    sendToClient(connectedSockFD, str);
+                    file.close();
+                }
+                file.open("example.html");
+                if(!file.is_open()) {
+                    std::cout << "\n Cant open file";
+                } else {
+                    std::cout << "Reply html" << std::endl;
+                    str.clear();
+                    sendStr += "\n";
+                    while(std::getline(file,str)) {
+                        sendStr += str + "\n";
+                    }
+                    sendToClient(connectedSockFD, sendStr);
                     file.close();
                 }                    
+            }
+            if(buff[0] == 's' && buff[1] == 't' && buff[2] == 'a' && buff[3] == 'r' && buff[4] == 't') {
+                str = "start";
+                sendToClient(connectedSockFD, str);                    
             }
             if(buff[0] == 'e' && buff[1] == 'x' && buff[2] == 'i' && buff[3] == 't') {
                 str = "exit";
                 sendToClient(connectedSockFD, str);
+                close(sockfd);
                 close(connectedSockFD);
                 _exit(0);
             }

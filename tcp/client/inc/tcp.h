@@ -17,6 +17,7 @@ public:
     int sockfd=0;
     int listenConnections();
     char buff[2000];
+    void closeIT();
 private:
     void init_server();
     void init_client();

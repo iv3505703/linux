@@ -37,6 +37,7 @@ void threadFunctionRead() {
             std::cout << std::endl;
             if(tcpPtr->buff[0]=='e' && tcpPtr->buff[1]=='x' &&
                    tcpPtr->buff[2]=='i' && tcpPtr->buff[3]=='t') {
+                tcpPtr->closeIT();
                 _exit(0);
             }
         }
