@@ -2,9 +2,9 @@
 
 #CC = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
 CC = /bin/arm-linux-gnueabihf-gcc-11
-#CPP = g++
+CPP = g++
 #CPP = arm-linux-gnueabihf-g++
-CPP = aarch64-linux-gnu-g++-11
+#CPP = aarch64-linux-gnu-g++-11
 #CPP = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
 
 LD = ~/raspberrypi/i686_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld

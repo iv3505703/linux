@@ -54,8 +54,8 @@ void Tcp::init_server() {
             exit(EXIT_FAILURE);
         }
         if (connectedSockFD > 0) {
-            //std::thread newConnection(Tcp::handleConnection, nullptr);
-            //newConnection.join();
+            // std::thread newConnection(Tcp::handleConnection, nullptr);
+            // newConnection.join();
             threads.emplace_back(new std::thread(Tcp::handleConnection, nullptr));
             // TODO: check for memory leakage
         }
@@ -80,7 +80,9 @@ void Tcp::handleConnection(void *arg) {
                 std::cout << buff[i];
             }
             std::cout << std::endl;
-            if (buff[0] == 'G' && buff[1] == 'E' && buff[2] == 'T') {
+            // parse first GET request
+            if (buff[0] == 'G' && buff[1] == 'E' && buff[2] == 'T' && buff[3] == ' ' && buff[4] == '/' &&
+                buff[5] == ' ') {
                 std::string sendStr;
                 std::ifstream file;
                 file.open("head.c");
@@ -93,11 +95,48 @@ void Tcp::handleConnection(void *arg) {
                     }
                     file.close();
                 }
-                file.open("example.html");
+                file.open("index.html");
                 if (!file.is_open()) {
                     std::cout << "\n Cant open file";
                 } else {
                     std::cout << "Reply html" << std::endl;
+                    str.clear();
+                    sendStr += "\n";
+                    while (std::getline(file, str)) {
+                        sendStr += str + "\n";
+                    }
+                    Tcp::instance()->sendToClient(Tcp::instance()->connectedSockFD, sendStr);
+                    file.close();
+                }
+            } else if (buff[0] == 'G' && buff[1] == 'E' && buff[2] == 'T' && buff[3] == ' ' && buff[4] == '/' &&
+                       buff[5] == 's' && buff[6] == 't') {
+                // parse GET style.css request
+                // TODO: send head of style request
+                std::string sendStr;
+                std::ifstream file;
+                file.open("style.css");
+                if (!file.is_open()) {
+                    std::cout << "\n Cant open file";
+                } else {
+                    std::cout << "Style send" << std::endl;
+                    str.clear();
+                    sendStr += "\n";
+                    while (std::getline(file, str)) {
+                        sendStr += str + "\n";
+                    }
+                    Tcp::instance()->sendToClient(Tcp::instance()->connectedSockFD, sendStr);
+                    file.close();
+                }
+            } else if (buff[0] == 'G' && buff[1] == 'E' && buff[2] == 'T' && buff[3] == ' ' && buff[4] == '/' &&
+                       buff[5] == 's' && buff[6] == 'c') {
+                // parse GET script.js request
+                std::string sendStr;
+                std::ifstream file;
+                file.open("sript.js");
+                if (!file.is_open()) {
+                    std::cout << "\n Cant open file";
+                } else {
+                    std::cout << "Style send" << std::endl;
                     str.clear();
                     sendStr += "\n";
                     while (std::getline(file, str)) {
